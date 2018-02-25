@@ -21,7 +21,6 @@ def calc_similarity_number(word):
                 ret = i
     return emoji_data[str(ret)]['emoji']
 
-i
 
 """
 形態素解析をして名詞、形容詞、
