@@ -1,7 +1,13 @@
 .DS_Store
+.python-version
 a.out
 aaa.py
 ppp.py
+mkan.txt
+json_maker.cpp
+WikiExtractor.py
+emoji_creater.py
+test.py
 hoge*
 text/*
 model/*
