@@ -7,7 +7,7 @@ import time
 File = open('emoji.json', 'r')
 emoji_data = json.load(File)
 print('load model file')
-model = word2vec.Word2Vec.load("./wiki.model")
+model = word2vec.Word2Vec.load("./model/wiki.model")
 print('completed')
 
 def calc_similarity_number(word):
