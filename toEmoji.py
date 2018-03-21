@@ -13,7 +13,7 @@ print('completed')
 def calc_similarity_number(word):
     ret = 0
     max_simil = 0
-    for i in range(107):
+    for i in range(118):
         for j in range(2):
             tmp = model.wv.similarity(word, emoji_data[str(i)]['mean'][str(j)])
             if max_simil < tmp:
